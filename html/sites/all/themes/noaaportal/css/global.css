@@ -107,7 +107,7 @@ h1#page-title {
 
 .og-context-node .field-type-list-boolean .field-label {
 	margin:5px;
-	font-weight:normal;
+	font-weight:bold;
 	margin-left:10px;
 	font-size:.8em;
 }
@@ -136,6 +136,9 @@ ul.quicktabs-tabs.quicktabs-style-arrows li.active a {
 	font-size:.9em;
 }
 
+.view-recently-added-chapter-content- a {
+    word-break: break-word;
+}
 
 th.views-field strong {
 	text-align:center;
@@ -222,6 +225,28 @@ ul.tabs {
 	white-space:nowrap;
 }
 
+
+.view-og-groups-list thead th {
+	width:16.6666% !important;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+.views-field-field-milestone-1,
+.views-field-field-milestone-2,
+.views-field-field-milestone-3,
+.views-field-field-milestone-4,
+.views-field-field-milestone-5,
+.views-field-field-milestone-6,
+.views-field-field-assigned-editor {
+	text-align:center;
+}
+
+td.views-field-field-milestone-3,
+td.views-field-field-milestone-5,
+td.views-field-field-assigned-editor {
+	background-color:#f8f8f8 !important;
+}
 
 
 /* FOOTER STYLES */
