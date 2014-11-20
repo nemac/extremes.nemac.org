@@ -54,6 +54,10 @@ a:active {
 	text-align:right;
 }
 
+#zone-menu {
+	margin-top: 1em;
+}
+
 #zone-menu li a {
 	color:#000;
 }
